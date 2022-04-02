@@ -1,0 +1,1 @@
+from .meetup_consumer import *

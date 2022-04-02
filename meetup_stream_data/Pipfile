@@ -1,0 +1,28 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+kafka-python = "==1.4.7"
+requests = "*"
+faust = "*"
+aiomonitor = "*"
+sqlalchemy = "*"
+fastapi = "*"
+alembic = "==1.7.3"
+
+[dev-packages]
+pytest = "*"
+flake8 = "*"
+importanize = "*"
+black = "*"
+
+[requires]
+python_version = "3.8"
+
+[pipenv]
+allow_prereleases = true
+
+[packages.uvicorn]
+extras = [ "standard",]

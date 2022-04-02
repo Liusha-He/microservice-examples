@@ -1,0 +1,41 @@
+version: "3"
+
+services:
+  db:
+    image: postgres:12.2
+    restart: on-failure
+    environment:
+      POSTGRES_DB: meetup
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: secret
+      PGDATA: /var/lib/postgresql/data
+    volumes:
+      - postgres:/data/postgres
+#    networks:
+#      - postgres
+    ports:
+      - 5432:5432
+
+  pgadmin:
+    image: dpage/pgadmin4:4.18
+    restart: always
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@liusha.com
+      PGADMIN_DEFAULT_PASSWORD: secret
+#      PGADMIN_CONFIG_SERVER_MODE: 'False'
+    ports:
+      - 8088:80
+    volumes:
+      - pgadmin-data:/var/lib/pgadmin
+#    networks:
+#      - postgres
+    links:
+      - "db:pgsql-server"
+
+#networks:
+#  postgres:
+#    driver: bridge
+
+volumes:
+  postgres:
+  pgadmin-data:

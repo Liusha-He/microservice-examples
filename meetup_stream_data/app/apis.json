@@ -1,0 +1,30 @@
+{
+  "group": "Group A",
+  "user": "liusha",
+  "interval": {
+    "n_days": 0,
+    "n_hours": 0,
+    "n_mins": 0,
+    "n_seconds": 0
+  },
+  "n_of_topics": 10,
+  "current_dt": "2021-10-01 13:55:23"
+}
+
+{
+  "dt_from": "2021-10-01 12:55:23",
+  "dt_to": "2021-10-01 13:55:23",
+  "topics": [
+    {
+      "topic_name":  "topic 1",
+      "details": [
+        {
+          "event_time": "",
+          "event_location": "",
+          "event_url": ""
+        }
+      ]
+    }
+  ],
+  "received_at": "2021-10-01 13:59:59"
+}
