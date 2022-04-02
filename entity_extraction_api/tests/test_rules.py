@@ -1,4 +1,4 @@
-from src.lib import extract
+from src.lib import extract_en
 
 
 def test_find_entities_case1(entity_case1):
@@ -7,6 +7,6 @@ def test_find_entities_case1(entity_case1):
 
     expected = {ent[0] for ent in entity_map}
 
-    res = extract((text, ""), entity_map)
+    res = extract_en((text, ""), entity_map)
 
     assert res == expected

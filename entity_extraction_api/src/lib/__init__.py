@@ -1,1 +1,1 @@
-from .ner import extract  # noqa
+from .ner import extract_en  # noqa
