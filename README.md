@@ -1,7 +1,7 @@
-# Python Development Stack Examples
+# Microservice Examples
 
 <ul>
-    <li> Flask </li>
-    <li> FastAPI  </li>
+    <li> Python Development Stack (Flask, FastAPI) </li>
+    <li> Java/Kotlin Development Stack (Spring Boot, Kafka) </li>
     <li> React.js </li>
 </ul>
