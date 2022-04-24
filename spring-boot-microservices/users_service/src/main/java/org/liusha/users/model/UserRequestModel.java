@@ -7,10 +7,11 @@ import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
 @Data
-public class UserModel {
+public class UserRequestModel {
     @NotNull(message = "First name is required")
     @Size(min = 2, message = "First name must not be less than 2 characters")
     private String firstName;
+
     @NotNull(message = "Last name is required")
     @Size(min = 2, message = "Last name must not be less than 2 characters")
     private String lastName;
