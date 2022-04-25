@@ -1,6 +1,5 @@
 use {
     actix_web::HttpResponse,
-    actix_web::client::SendRequestError::Http,
     serde::{Deserialize, Serialize},
 };
 
