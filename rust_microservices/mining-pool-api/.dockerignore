@@ -1,0 +1,7 @@
+Cargo.lock
+Dockerfile
+local-compose.yml
+README.md
+target/
+*.iml
+.idea
