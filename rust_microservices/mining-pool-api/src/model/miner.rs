@@ -5,8 +5,8 @@ use {
     rand::Rng,
     serde::{Deserialize, Serialize},
     uuid::Uuid,
-    super::schema::miners,
-    crate::wallet::fetch_wallet_by_id,
+    crate::schema::miners,
+    crate::model::wallet::fetch_wallet_by_id,
     crate::DBPooledConnection,
 };
 

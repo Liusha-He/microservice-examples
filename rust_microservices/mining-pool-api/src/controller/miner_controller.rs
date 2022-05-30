@@ -3,7 +3,7 @@ use {
     actix_web::HttpResponse,
     actix_web::web::{Json, Data, Path},
 
-    crate::miner::*,
+    crate::model::miner::*,
     crate::utils::{NotFoundMessage, ResponseType},
     crate::DBPool,
 };
@@ -55,5 +55,4 @@ pub async fn create_miner(
             NotFoundMessage::new("Failed to create miner".to_string())
         ).get_response(),
     }
-
 }

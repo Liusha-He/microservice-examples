@@ -3,9 +3,9 @@ use {
     actix_web::HttpResponse,
     actix_web::web::{Json, Data, Path},
 
-    crate::miner::*,
+    crate::model::miner::*,
     crate::utils::*,
-    crate::wallet::*,
+    crate::model::wallet::*,
     crate::DBPool,
 };
 

@@ -10,14 +10,17 @@ use {
     diesel::PgConnection,
     r2d2::{Pool, PooledConnection},
     std::{env, io},
+
+    crate::controller::{
+        miner_controller,
+        wallet_controller
+    },
 };
 
-mod miner;
-mod miner_controller;
+mod model;
+mod controller;
 mod schema;
 mod utils;
-mod wallet;
-mod wallet_controller;
 
 pub type DBPool = Pool<ConnectionManager<PgConnection>>;
 pub type DBPooledConnection = PooledConnection<ConnectionManager<PgConnection>>;
