@@ -1,0 +1,12 @@
+/home/lhe/IdeaProjects/microservice-examples/rust_microservices/mining-pool-api/target/rls/debug/deps/libthiserror_impl-c0135cae11597f5b.so: /home/lhe/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.30/src/lib.rs /home/lhe/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.30/src/ast.rs /home/lhe/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.30/src/attr.rs /home/lhe/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.30/src/expand.rs /home/lhe/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.30/src/fmt.rs /home/lhe/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.30/src/generics.rs /home/lhe/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.30/src/prop.rs /home/lhe/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.30/src/valid.rs
+
+/home/lhe/IdeaProjects/microservice-examples/rust_microservices/mining-pool-api/target/rls/debug/deps/thiserror_impl-c0135cae11597f5b.d: /home/lhe/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.30/src/lib.rs /home/lhe/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.30/src/ast.rs /home/lhe/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.30/src/attr.rs /home/lhe/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.30/src/expand.rs /home/lhe/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.30/src/fmt.rs /home/lhe/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.30/src/generics.rs /home/lhe/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.30/src/prop.rs /home/lhe/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.30/src/valid.rs
+
+/home/lhe/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.30/src/lib.rs:
+/home/lhe/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.30/src/ast.rs:
+/home/lhe/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.30/src/attr.rs:
+/home/lhe/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.30/src/expand.rs:
+/home/lhe/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.30/src/fmt.rs:
+/home/lhe/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.30/src/generics.rs:
+/home/lhe/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.30/src/prop.rs:
+/home/lhe/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.30/src/valid.rs:
