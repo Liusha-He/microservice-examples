@@ -1,0 +1,13 @@
+/home/lhe/IdeaProjects/microservice-examples/rust_microservices/mining-pool-api/target/debug/deps/actix_server-b63830a0d43aa38c.rmeta: /home/lhe/.cargo/registry/src/github.com-1ecc6299db9ec823/actix-server-1.0.4/src/lib.rs /home/lhe/.cargo/registry/src/github.com-1ecc6299db9ec823/actix-server-1.0.4/src/accept.rs /home/lhe/.cargo/registry/src/github.com-1ecc6299db9ec823/actix-server-1.0.4/src/builder.rs /home/lhe/.cargo/registry/src/github.com-1ecc6299db9ec823/actix-server-1.0.4/src/config.rs /home/lhe/.cargo/registry/src/github.com-1ecc6299db9ec823/actix-server-1.0.4/src/server.rs /home/lhe/.cargo/registry/src/github.com-1ecc6299db9ec823/actix-server-1.0.4/src/service.rs /home/lhe/.cargo/registry/src/github.com-1ecc6299db9ec823/actix-server-1.0.4/src/signals.rs /home/lhe/.cargo/registry/src/github.com-1ecc6299db9ec823/actix-server-1.0.4/src/socket.rs /home/lhe/.cargo/registry/src/github.com-1ecc6299db9ec823/actix-server-1.0.4/src/worker.rs
+
+/home/lhe/IdeaProjects/microservice-examples/rust_microservices/mining-pool-api/target/debug/deps/actix_server-b63830a0d43aa38c.d: /home/lhe/.cargo/registry/src/github.com-1ecc6299db9ec823/actix-server-1.0.4/src/lib.rs /home/lhe/.cargo/registry/src/github.com-1ecc6299db9ec823/actix-server-1.0.4/src/accept.rs /home/lhe/.cargo/registry/src/github.com-1ecc6299db9ec823/actix-server-1.0.4/src/builder.rs /home/lhe/.cargo/registry/src/github.com-1ecc6299db9ec823/actix-server-1.0.4/src/config.rs /home/lhe/.cargo/registry/src/github.com-1ecc6299db9ec823/actix-server-1.0.4/src/server.rs /home/lhe/.cargo/registry/src/github.com-1ecc6299db9ec823/actix-server-1.0.4/src/service.rs /home/lhe/.cargo/registry/src/github.com-1ecc6299db9ec823/actix-server-1.0.4/src/signals.rs /home/lhe/.cargo/registry/src/github.com-1ecc6299db9ec823/actix-server-1.0.4/src/socket.rs /home/lhe/.cargo/registry/src/github.com-1ecc6299db9ec823/actix-server-1.0.4/src/worker.rs
+
+/home/lhe/.cargo/registry/src/github.com-1ecc6299db9ec823/actix-server-1.0.4/src/lib.rs:
+/home/lhe/.cargo/registry/src/github.com-1ecc6299db9ec823/actix-server-1.0.4/src/accept.rs:
+/home/lhe/.cargo/registry/src/github.com-1ecc6299db9ec823/actix-server-1.0.4/src/builder.rs:
+/home/lhe/.cargo/registry/src/github.com-1ecc6299db9ec823/actix-server-1.0.4/src/config.rs:
+/home/lhe/.cargo/registry/src/github.com-1ecc6299db9ec823/actix-server-1.0.4/src/server.rs:
+/home/lhe/.cargo/registry/src/github.com-1ecc6299db9ec823/actix-server-1.0.4/src/service.rs:
+/home/lhe/.cargo/registry/src/github.com-1ecc6299db9ec823/actix-server-1.0.4/src/signals.rs:
+/home/lhe/.cargo/registry/src/github.com-1ecc6299db9ec823/actix-server-1.0.4/src/socket.rs:
+/home/lhe/.cargo/registry/src/github.com-1ecc6299db9ec823/actix-server-1.0.4/src/worker.rs:

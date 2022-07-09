@@ -1,0 +1,10 @@
+/home/lhe/IdeaProjects/microservice-examples/rust_microservices/mining-pool-api/target/debug/deps/alloc_no_stdlib-82b64c773ec32d82.rmeta: /home/lhe/.cargo/registry/src/github.com-1ecc6299db9ec823/alloc-no-stdlib-2.0.3/src/lib.rs /home/lhe/.cargo/registry/src/github.com-1ecc6299db9ec823/alloc-no-stdlib-2.0.3/src/allocated_memory/mod.rs /home/lhe/.cargo/registry/src/github.com-1ecc6299db9ec823/alloc-no-stdlib-2.0.3/src/allocated_memory/index_macro.rs /home/lhe/.cargo/registry/src/github.com-1ecc6299db9ec823/alloc-no-stdlib-2.0.3/src/stack_allocator.rs /home/lhe/.cargo/registry/src/github.com-1ecc6299db9ec823/alloc-no-stdlib-2.0.3/src/allocated_stack_memory.rs /home/lhe/.cargo/registry/src/github.com-1ecc6299db9ec823/alloc-no-stdlib-2.0.3/src/init.rs
+
+/home/lhe/IdeaProjects/microservice-examples/rust_microservices/mining-pool-api/target/debug/deps/alloc_no_stdlib-82b64c773ec32d82.d: /home/lhe/.cargo/registry/src/github.com-1ecc6299db9ec823/alloc-no-stdlib-2.0.3/src/lib.rs /home/lhe/.cargo/registry/src/github.com-1ecc6299db9ec823/alloc-no-stdlib-2.0.3/src/allocated_memory/mod.rs /home/lhe/.cargo/registry/src/github.com-1ecc6299db9ec823/alloc-no-stdlib-2.0.3/src/allocated_memory/index_macro.rs /home/lhe/.cargo/registry/src/github.com-1ecc6299db9ec823/alloc-no-stdlib-2.0.3/src/stack_allocator.rs /home/lhe/.cargo/registry/src/github.com-1ecc6299db9ec823/alloc-no-stdlib-2.0.3/src/allocated_stack_memory.rs /home/lhe/.cargo/registry/src/github.com-1ecc6299db9ec823/alloc-no-stdlib-2.0.3/src/init.rs
+
+/home/lhe/.cargo/registry/src/github.com-1ecc6299db9ec823/alloc-no-stdlib-2.0.3/src/lib.rs:
+/home/lhe/.cargo/registry/src/github.com-1ecc6299db9ec823/alloc-no-stdlib-2.0.3/src/allocated_memory/mod.rs:
+/home/lhe/.cargo/registry/src/github.com-1ecc6299db9ec823/alloc-no-stdlib-2.0.3/src/allocated_memory/index_macro.rs:
+/home/lhe/.cargo/registry/src/github.com-1ecc6299db9ec823/alloc-no-stdlib-2.0.3/src/stack_allocator.rs:
+/home/lhe/.cargo/registry/src/github.com-1ecc6299db9ec823/alloc-no-stdlib-2.0.3/src/allocated_stack_memory.rs:
+/home/lhe/.cargo/registry/src/github.com-1ecc6299db9ec823/alloc-no-stdlib-2.0.3/src/init.rs:
