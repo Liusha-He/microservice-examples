@@ -14,11 +14,13 @@ router = APIRouter()
 @router.post("/todo",
              response_model=Todo,
              response_description="Create a todo item")
-async def create_todo(todo: Todo = Body(...)):
+async def add_todo(todo: Todo = Body(...)):
     todo_item = jsonable_encoder(todo)
     response = await create_todo(todo_item)
+
     if response:
         return response
+
     raise HTTPException(400, "Something went wrong")
 
 

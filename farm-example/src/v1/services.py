@@ -4,6 +4,11 @@ from src.v1.database import todo_collection
 from src.v1.models import Todo
 
 
+async def create_todo(todo: dict) -> Todo:
+    result = await todo_collection.insert_one(todo)
+    return result
+
+
 async def fetch_one_todo(title: str) -> Todo:
     document = await todo_collection.find_one(
         {"title": title}
@@ -22,11 +27,6 @@ async def fetch_all_todos() -> List[Todo]:
     return todos
 
 
-async def create_todo(document: dict) -> Any:
-    result = await todo_collection.insert_one(document)
-    return result
-
-
 async def update_todo(title: str, description: str):
     await todo_collection.update_one(
         {"title": title},
@@ -36,6 +36,8 @@ async def update_todo(title: str, description: str):
     return document
 
 
-async def remove_todo(title: str):
-    await todo_collection.delete_one({"title": title})
+async def remove_todo(title: str) -> bool:
+    await todo_collection.delete_one(
+        {"title": title}
+    )
     return True

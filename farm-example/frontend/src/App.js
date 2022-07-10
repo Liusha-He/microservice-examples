@@ -20,7 +20,7 @@ function App() {
   const addTodoHandler = () => {
     axios.post("http://localhost:8080/v1/api/todo",
     {
-      "title": title, "description": desc
+      title: title, description: desc
     }).then(res => console.log(res))
   }
 
