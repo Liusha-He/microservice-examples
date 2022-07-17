@@ -2,7 +2,7 @@ import './App.css';
 import React, {useState, useEffect} from "react";
 import axios from "axios";
 import "bootstrap/dist/css/bootstrap.min.css"
-import TodoView from ".components/todoListView";
+import TodoView from "./components/todoListView";
 
 function App() {
 
@@ -11,16 +11,16 @@ function App() {
   const [desc, setDesc] = useState("");
 
   useEffect(() => {
-    axios.get("http://localhost:8000/api/todo")
+    axios.get("http://localhost:8080/v1/api/todo")
     .then(res => {
       setTodoList(res.data)
     })
   });
 
   const addTodoHandler = () => {
-    axios.post("http://localhost:8000/api/todo/", 
+    axios.post("http://localhost:8080/v1/api/todo",
     {
-      "title": title, "description": desc
+      title: title, description: desc
     }).then(res => console.log(res))
   }
 
