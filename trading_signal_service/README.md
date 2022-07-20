@@ -1,2 +1,0 @@
-# Financial Data Science Playground
-
