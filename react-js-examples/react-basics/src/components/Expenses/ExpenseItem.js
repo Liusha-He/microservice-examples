@@ -9,11 +9,17 @@ function ExpenseItem(expense) {
     const date = expense.date.toLocaleString("en-US", { day: "2-digit" });
     const year = expense.date.getFullYear();
 
-    const [ title, setTitle ] = useState(expense.title);
+    const enteredTitle = expense.title;
+
+    // const [ title, setTitle ] = useState(enteredTitle);
 
     const clickHandler = () => {
-        setTitle("updated");
+        // setTitle("updated");
+        console.log("updated");
     }
+
+    // console.log(`input title is ${enteredTitle}`);
+    // console.log(`title is ${title}`);
 
     return (
         <Card className="expense-item">
@@ -21,7 +27,7 @@ function ExpenseItem(expense) {
                 {year}-{month}-{date}
             </div>
             <div className="expense-item__description">
-                <h2>{title}</h2>
+                <h2>{enteredTitle}</h2>
                 <div className="expense-item__price">£{expense.amount}</div>
             </div>
             <button onClick={clickHandler}>Change Title</button>

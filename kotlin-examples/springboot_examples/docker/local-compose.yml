@@ -1,0 +1,93 @@
+version: "3"
+
+services:
+  registry_service:
+    image: registry_service:latest
+    build:
+      context: /springboot_examples/discovery_service
+      dockerfile: ../discovery_service
+    restart: on-failure
+    ports:
+      - ""
+
+  gateway_service:
+    image: gateway_service:latest
+    build:
+      context: /springboot_examples/gateway
+      dockerfile: ../gateway_service
+    restart: on-failure
+    ports:
+      - ""
+    depends_on:
+      - registry_service
+      - mysqldb
+
+  users_service:
+    image: users_service
+    build:
+      context: /springboot_examples/users_service
+      dockerfile: ../users_service
+    restart: on-failure
+    ports:
+      - ""
+    depends_on:
+      - registry_service
+      - mysqldb
+
+  account_management_service:
+    image: account_management_service:latest
+    build:
+      context: /springboot_examples/account_management_service
+      dockerfile: ../account_management_service
+    restart: on-failure
+    ports:
+      - ""
+    depends_on:
+      - registry_service
+      - mysqldb
+
+  ecommerce_service:
+    image: "spring_boot_backend:latest"
+    build:
+      context: ../..
+      dockerfile: Dockerfile
+    container_name: "spring_boot_backend"
+    hostname: ecommerce_server
+    restart: on-failure
+    depends_on:
+      - mysql_db
+    environment:
+      SPRING_APPLICATION_JSON: '{
+          "spring.datasource.driver-class-name": "com.mysql.cj.jdbc.Driver",
+          "spring.datasource.url": "jdbc:mysql://mysql_db:3306/full-stack-ecommerce?useSSL=false&useUnicode=yes&characterEncoding=UTF-8&allowPublicKeyRetrieval=true&serverTimezone=UTC",
+          "spring.datasource.username": "liusha",
+          "spring.datasource.password": "dev_password",
+          "spring.jpa.properties.hibernate.dialect": "org.hibernate.dialect.MySQL5InnoDBDialect",
+          "spring.jpa.hibernate.ddl-auto": "update",
+          "spring.data.rest.base-path": "/api/v0"
+        }'
+    ports:
+      - "8080:8080"
+    stdin_open: true
+    tty: true
+
+  mysql_db:
+    image: mysql:5.7
+    container_name: mysql_db
+    hostname: mysql_db
+    restart: on-failure
+    environment:
+      - MYSQL_DATABASE=full-stack-ecommerce
+      - MYSQL_USER=liusha
+      - MYSQL_PASSWORD=dev_password
+      - MYSQL_ROOT_PASSWORD=dev_password
+    ports:
+      - "3306:3306"
+    expose:
+      - "3306"
+    volumes:
+      - "./db_scripts/create-user.sql:/docker-entrypoint-initdb.d/1.sql"
+      - "./db_scripts/create-products.sql:/docker-entrypoint-initdb.d/2.sql"
+
+volumes:
+  db:
